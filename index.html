@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>  
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, scale=1.0">
+
 <style type="text/css">
     body {
     
@@ -51,34 +55,44 @@
         border-style: hidden;
         border-color: darkorange;
         }
-  /*.container {
+  .container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
-        /*grid-template-rows: 50px 50px;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 3px; 
     }
 
-    .about {
-
+    .index {
+        display: inline-block;
         grid-column-start:1 ;
         grid-column-end: 1;
     }
 
-    .skills {
+    .about {
+        display: inline-block;
+        padding: 0;
+         
+    }
 
-        grid-column:1/1;
+  /*  .skills {
+
+        grid-column:2/2;
     }
 
     .projects{
 
-        grid-column: 1/1;
+        grid-column: 3/3;
     }
 
     .contacts{
 
-grid-column: 1/1;
+grid-column: 4/4;
 } */
 
+@media screen and (min-width: 600px){
+    container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
    /* div{
 
         border-style: solid;
@@ -96,31 +110,36 @@ grid-column: 1/1;
 
 <h1><i>Shirley Tsakane Ndou</i></h1>
 <!--<img src="/home/shirley/Downloads/IMG_9758.JPG" alt="Profile Photo">-->
-<a href="AboutMe.html"><button type="button">About Me</button></a>
+<!--<a href="AboutMe.html"><button type="button">About Me</button></a>
 <a href="Skills.html"><button type="button">Skills</button></a>
 <a href="Projects.html"><button type="button">Projects</button></a>
-<a href="Contacts.html"><button type="button">Contacts</button></a>
+<a href="Contacts.html"><button type="button">Contacts</button></a>-->
 
-<!--<div class = "container">
+<div class = "container">
+    <div>
+    
         <div class = "about">
         <a href="AboutMe.html"><button type="button">About Me</button></a>
-        </div>
+        <a href="Skills.html"><button type="button">Skills</button></a>
+        <a href="Projects.html"><button type="button">Projects</button></a>
+        <a href="Contacts.html"><button type="button">Contacts</button></a>
+       
 
        
-        <div class = "skills">
-            <a href="Skills.html"><button type="button">Skills</button></a>
+       <!-- <div class = "skills">
+            
         </div>
         
         <div class = "projects">
-            <a href="Projects.html"><button type="button">Projects</button></a>
+           
         </div>
        
         <div class = "contacts">
-            <a href="Contacts.html"><button type="button">Contacts</button></a>
+            
         </div>
+    </div>-->
 
-
-</div> -->
+</div> 
 
 </body>
 
